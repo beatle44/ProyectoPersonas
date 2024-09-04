@@ -1,0 +1,3 @@
+Tuve algunos inconvenientes con el ID de visual studio. 
+La parte backend esta completa, sin embargo no me dio el tiempo para generar el 
+front.

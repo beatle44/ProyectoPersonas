@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "72da6f05-44a2-4b13-a731-68b90dae02a6",
+		"name": "CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36481560"
+	},
+	"item": [
+		{
+			"name": "agregarPersona",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Greg\",\r\n  \"edad\": 30,\r\n  \"telefono\": \"12345678\",\r\n  \"direccion\": \"avenida x\",\r\n  \"correo\": \"gcarreto@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44320/api/personas/agregarPersona",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"personas",
+						"agregarPersona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "traePersonas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44320/api/personas/traePersonas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"personas",
+						"traePersonas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminarPersona",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Greg\",\r\n  \"edad\": 30,\r\n  \"telefono\": \"12345678\",\r\n  \"direccion\": \"Anzures\",\r\n  \"correo\": \"gcarreto@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44320/api/personas/eliminarPersona",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"personas",
+						"eliminarPersona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actualizaPersona",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Greg\",\r\n  \"edad\": 30,\r\n  \"telefono\": \"12345678\",\r\n  \"direccion\": \"Anzures\",\r\n  \"correo\": \"gcarreto@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44320/api/personas/actualizaPersona",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"personas",
+						"actualizaPersona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buscarPersona",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Greg\",\r\n  \"edad\": 30,\r\n  \"telefono\": \"12345678\",\r\n  \"direccion\": \"Anzures\",\r\n  \"correo\": \"gcarreto@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44320/api/personas/buscarPersona",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44320",
+					"path": [
+						"api",
+						"personas",
+						"buscarPersona"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
